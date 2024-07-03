@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.mg-chart {
+  min-height: 400px;
+}
+
+.n-select-w {
+  max-width: 200px;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* 这是针对缺省样式 (必须的) */
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+}
+
+/* 滚动条的滑轨背景颜色 */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: 5px solid transparent;
+  background-clip: content-box;
+}
+
+/* 滑块颜色 */
+::-webkit-scrollbar-button {
+  background-color: transparent;
+  height: 8px;
+}
+
+/* 滑轨两头的监听按钮颜色 */
+::-webkit-scrollbar-corner {
+  background-color: black;
+}
+
+/* 横向滚动条和纵向滚动条相交处尖角的颜色 */

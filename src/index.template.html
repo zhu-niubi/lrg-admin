@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= productName %></title>
+
+    <meta charset="utf-8" />
+    <meta name="description" content="<%= productDescription %>" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width<% if (ctx.mode.cordova || ctx.mode.capacitor) { %>, viewport-fit=cover<% } %>"
+    />
+    <!-- <meta name="referrer" content="no-referrer" /> -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="128x128"
+      href="icons/favicon-128x128.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="icons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icons/favicon-16x16.png"
+    />
+    <link rel="icon" type="image/ico" href="favicon.ico" />
+
+    <!-- 地图 -->
+    <!-- <script
+      charset="utf-8"
+      src="https://map.qq.com/api/js?v=2.exp&key=RU5BZ-5Z6CO-PN2WU-SZ374-36OEO-XEFIT"
+    ></script> -->
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, user-scalable=no, width=device-width"
+    />
+    <script type="text/javascript">
+      window._AMapSecurityConfig = {
+        securityJsCode: '8110f6d40db4c6f781adcbe66f740ba6',
+      };
+    </script>
+    <script
+      type="text/javascript"
+      src="https://webapi.amap.com/maps?v=2.0&key=7c4ac46f0fe33309b299525d582c567b"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://a.amap.com/jsapi_demos/static/demo-center/js/jquery-1.11.1.min.js"
+    ></script>
+    <!-- <script
+      type="text/javascript"
+      src="https://a.amap.com/jsapi_demos/static/demo-center/js/underscore-min.js"
+    ></script> -->
+    <!-- <script
+      type="text/javascript"
+      src="https://a.amap.com/jsapi_demos/static/demo-center/js/backbone-min.js"
+    ></script> -->
+    <!-- <script
+      type="text/javascript"
+      src="https://a.amap.com/jsapi_demos/static/demo-center/js/prety-json.js"
+    ></script>
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script> -->
+  </head>
+  <body>
+    <!-- DO NOT touch the following DIV -->
+    <div id="q-app"></div>
+  </body>
+</html>
