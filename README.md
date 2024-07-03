@@ -1,4 +1,4 @@
-# Nalinv Admin App
+#  Admin App
 
 Quasar Admin project
 
@@ -42,3 +42,5 @@ quasar build
 ### Customize the configuration
 
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
+
+## lrg系列小程序后台管理
